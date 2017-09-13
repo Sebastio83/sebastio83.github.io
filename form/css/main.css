@@ -1,0 +1,253 @@
+/***************************************
+  Basic Styles
+***************************************/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Merriweather', Palatino, Georgia, serif;
+  background: #fff;
+  box-sizing: border-box;
+  width: 90%;
+  margin: auto;
+}
+
+/* Text Styles */
+
+h1 {
+  color: #fff;
+  background: #000;
+  text-align: center;
+  padding: 1em;
+  margin-top: 0;
+  font-size: 1.953rem
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.563rem;
+}
+
+h3 {
+  margin: 0.5em;
+  text-align: center;
+  font-weight: normal;
+  color: #aaafaf;
+  font-size: 1.2rem
+}
+
+p {
+  margin: 0.5em;
+  text-align: left;
+  font-weight: normal;
+  color: #869499;
+}
+
+
+/* Border Styles*/
+
+.heading {
+  border-bottom: 4px solid black;
+}
+
+hr {
+  border-top: 2px solid black;
+  margin: 0.3em 0;
+}
+
+/***************************************
+  Input Fields
+***************************************/
+
+fieldset {
+  border: none;
+}
+
+legend {
+  font-weight: bold;
+  font-size: 1.25rem;
+  padding: 1rem 1rem 1rem 0;
+}
+
+label {
+  color: #aaafaf;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 0.5em;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+  font-size: 16px;
+  height: 1.999em;
+  width: 100%;
+  background: #e8eeef;
+  color: #869499;
+  outline: 2px solid #e8eeef;;
+  margin-bottom: 1.999em;
+  transition: border .5s, outline .5s;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  margin: 1em;
+}
+
+select {
+  height: 1.999em;
+}
+
+textarea {
+    min-height: 5em;
+}
+
+#zip {
+  max-width: 40%;
+}
+
+/* Added classes */
+
+.first {
+  background-color: #FFF3D2;
+  padding: 0.5em;
+}
+
+.second {
+  background-color: #FFEFDF;
+  padding: 0.5em;
+}
+
+.inline {
+  display: inline;
+  margin: 0.5em;
+}
+
+/* Submit Button */
+
+button{
+  font-family: 'Merriweather', Palatino, Georgia, serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  background: #869499;
+  display: inline-block;
+  width:100%;
+  padding: 0.5em;
+  border-radius: 0.25em;
+}
+
+/* Copyright */
+
+footer p {
+  text-align: center;
+  font-size: 0.707rem;
+}
+
+span {
+  font-style: italic;
+}
+
+/* Placeholder Styles for Cross Browser Compatibility */
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #aaafaf;
+    text-align: right;
+    padding-right: 0.5em;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: #aaafaf;
+   opacity:  1;
+   text-align: right;
+   padding-right: 0.5em;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: #aaafaf;
+   opacity:  1;
+   text-align: right;
+   padding-right: 0.5em;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #aaafaf;
+   text-align: right;
+   padding-right: 0.5em;
+}
+
+/***************************************
+  Transitions
+***************************************/
+
+input:focus,
+textarea:focus {
+  outline: 2px solid #7F92CC;
+  background: #fff;
+  
+}
+
+button:focus {
+  outline: 4px solid #7F92CC;
+}
+
+button:hover {
+  background: #fff;
+  color: #869499;
+  transition: background 0.5s, color 0.5s;
+}
+
+/***************************************
+  Media Queries
+***************************************/
+
+@media (min-width: 768px) {
+  
+  body {
+    max-width: 1000px;
+  }
+ 
+  label {
+    display: inline-block;
+    max-width: 20%;
+    margin-right: 1.737em;
+  }
+  
+  
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select{
+    display: inline-block;
+    max-width: 75%;
+  }
+  
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

@@ -1,0 +1,74 @@
+/******************************************
+    Base Styles
+******************************************/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* center content */
+
+#wrapper {
+  max-width: 1000px;
+  margin: auto;
+}
+
+ul {
+  text-align: center;
+}
+
+/* search box */
+
+fieldset {
+border: none;
+margin: 1em auto;
+width: 35%;
+}
+
+fieldset input {
+  font-size: 16pt;
+  width: 100%
+}
+
+/* list styles */
+
+ul li {
+    list-style-type: none;
+    padding: 1em 0;
+}
+
+ul li p {
+  display: none;
+}
+
+/******************************************
+    Media Queries
+******************************************/
+
+@media (min-width: 520px) {
+  ul li {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 2%;
+  }
+}
+
+/******************************************
+    Light Box
+******************************************/
+
+.lv_title {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 1em;
+}
+
+.lv_caption {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.lv-overlay {
+  background-color: tomato;
+}

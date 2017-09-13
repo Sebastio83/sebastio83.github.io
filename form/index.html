@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FEWD Unit 3 Project</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,400i,700" rel="stylesheet">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+      
+      <header>
+        <h1>THE CODE REVIEW</h1>
+      </header>
+      
+      <div class="heading">
+        <h2>Signup for our newsletter</h2>
+        <h3>Get the latest news on how your code is doing right in your inbox</h3>
+      </div>
+      <hr>
+      
+      <form action="index.html" method="post">
+        <div class="first">
+        <fieldset>
+          <legend>Contact Information</legend>
+
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="user_name" placeholder="required" required>
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="user_email" placeholder="required" required>
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="user_phone" placeholder="555-555-555">
+          <label for="address">Street Address</label>
+          <input type="text" id="address" name="user_adress" placeholder="111 Main Street">
+          <label for="city">City</label>
+          <input type="text" id="city" name="user_city" placeholder="Anytown">
+          <label for="state"> State</label>
+          <select id="state" name="state">
+            <option value="state">Choose State</option>
+            <option value="california">California, CA</option>
+            <option value="florida">Florida, FL</option>
+            <option value="hawai">Hawai, HI</option>
+            <option value="newyork">New York, NY</option>
+            <option value="ohio">Ohio, OH</option>
+            <option value="texas">Texas, TX</option>
+          </select>
+          <label for="zip">Zip Code</label>
+          <input type="text" id="zip" name="user_zipcode" placeholder="12345">
+        </fieldset><!-- End Contact Information -->
+        </div><!-- /.first -->
+        
+        <hr>
+        
+        <div class="second">
+          <fieldset>
+            <legend>Newsletter</legend>
+            <p>Select the newsletters you would like to recieve</p>
+
+            <input type="checkbox" id="html-news" value="html-news" name="html-news"><label for="html-news" class="inline"> HTML News</label><br>
+            <input type="checkbox" id="css-news" value="css-news" name="css-news"><label for="css-news" class="inline"> CSS News</label><br>
+            <input type="checkbox" id="javascript-news" value="javascript-news" name="javascript-news"><label for="javascript-news" class="inline"> JavaScript News</label>
+
+            <p>Newsletter format</p>
+
+            <input type="radio" id="html-radio" value="html-radio" name="radio-button"><label for="html-radio" class="inline"> HTML</label><br>
+            <input type="radio" id="text-radio" value="text-radio" name="radio-button"><label for="text-radio" class="inline"> Plain text</label>
+
+            <p>Other topics you'd like to hear about</p>
+            <textarea id="topics" name="user_topics"></textarea>
+
+            <button type="submit">Sign Up</button>
+          </fieldset><!-- End Newsletter -->
+        </div><!-- /.second -->
+      </form>
+      
+      <footer>
+        <p><span>Copyright</span> The Code Review</p>
+      </footer>
+    </body>
+</html>
