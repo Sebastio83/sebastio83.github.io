@@ -1,0 +1,51 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  color: #000060;
+}
+
+.contentWrapper {
+  max-width: 90%;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: #f4f7f8;
+  border-radius: 8px;
+}
+.videoWrapper {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.transcriptWrapper {
+  margin: 0 auto;
+  padding-top: 1.3em;
+  display: block;
+  width: 90%;
+  text-align: inherit;
+  font-size: 1.2em;
+  line-height: 1.8em;
+}
+
+
+/***********************************
+  Media Querys
+***********************************/
+
+@media (min-width: 786px) {
+  
+  .videoWrapper {
+    max-width: 900px;
+    width: 80%;
+  }
+  
+  .transcriptWrapper {
+    width: 75%;
+    max-width: 900px;
+  }
+  
+}

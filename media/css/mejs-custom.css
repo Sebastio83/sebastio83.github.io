@@ -1,0 +1,52 @@
+.mejs__controls:not([style*="display: none"]) {
+  background: #2A546F;
+  padding: 0;
+}
+
+.mejs__time-current {
+    background: #22A7F0;  
+}
+
+.mejs__time-loaded {
+  background: #81CFE0;
+}
+
+.mejs__time-total {
+  background: #C5EFF7;
+}
+
+.mejs__time-float {
+  background-color: #2A546F; 
+  border: 1px solid #2A546F; 
+  color: #FFF;
+  font-size: 15px;
+  height: 17px;
+  width: 45px;
+}
+
+.mejs__time-float-corner {
+  border-color: #22A7F0; 
+}
+
+.mejs__controls .mejs__button {
+  width: 60px;
+}
+
+.mejs__button > button {
+  margin: 10px 20px;
+}
+
+.mejs__controls .mejs__time-rail {
+  padding: 15px 0;
+  margin-right: 0;
+  font-size: 15px; 
+}
+
+.mejs__controls .mejs__time-rail span {
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.mejs__captions-position-hover {
+  bottom: 50px;
+}

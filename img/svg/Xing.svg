@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="522px" height="522px" viewBox="0 0 522 522" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Xing</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Xing" transform="translate(5.000000, 5.000000)" fill-rule="nonzero">
+            <circle id="Oval" stroke="#7C7D7D" stroke-width="10" cx="256" cy="256" r="256"></circle>
+            <g id="Group" transform="translate(160.000000, 142.000000)">
+                <polygon id="Shape" fill="#CDD42A" points="145.9 0 191.9 0 116.3 138.1 166.7 228 119.6 228 69.1 137"></polygon>
+                <polygon id="Shape" fill="#026567" points="36.3 154.6 0.1 154.6 39.8 92 6.7 40.6 43.8 40.6 76.8 92.6"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
