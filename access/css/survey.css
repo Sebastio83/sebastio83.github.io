@@ -16,8 +16,78 @@ form {
 }
 .newsletter{
   text-align: right;
-
 }
+
+legend {
+  text-decoration: none;
+  text-align: left;
+  margin: 0 0 5px -2px;
+}
+
+fieldset {
+  color: #4DAF7C; /*#3A6355*/
+  background: #2d2b30; /*#2d2b30*/
+  border-style: none;
+}
+
+label {
+  display: block;
+  text-align: left;
+  margin: 5px 0;
+}
+
+.bandmember {
+  display: inline-block;
+}
+
+select,
+textarea {
+  display: block;
+  margin-top: 20px;
+}
+
+
+.signup {
+    display: flex;
+    margin: 10px 0px;
+    text-align: right;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.signup input {
+    margin: 10px 0px 10px;
+}
+
+button {
+    margin-top: 10px;
+    color: #2d2b30;  /*CHANGE COLOR!!!*/
+    background: #4DAF7C; /*CHANGE COLOR!!!*/
+    cursor: pointer;
+    padding: 5px;
+    margin: 0 auto;
+    border: none;
+    float: right;
+    font-size: 1em;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+button:hover {
+    background: #019875;
+    color: #fff;
+}
+
+input:focus,
+textarea:focus {
+  outline: 0;
+  border: 2px solid tomato;  /*Change Color!!!!*/
+  background-color: yellow;  /*Change Color!!!!*/
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
 
 
 /* Styles for larger screens */

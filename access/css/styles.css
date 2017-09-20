@@ -1,6 +1,6 @@
 /*  Excanged Colors
     
-    old:  #3A6355       new:  #40806a
+    old:  #3A6355       new:  #4DAF7C  
     old:  #781125       new:  #D64541      
     old:  #96731A       new:  #AF8518
     old:  #999          new:  #939393  hover: E8E8E8 
@@ -17,7 +17,7 @@ body {
   padding: 0;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
-  color: #40806a; /*#3A6355*/
+  color: #4DAF7C; /*#3A6355*/
   background: #2d2b30; /*#2d2b30*/
 }
  
@@ -27,6 +27,7 @@ h1 {
   color: black;
   font-weight: 500;
 }
+
 /* Link Styles */
 
 a {
@@ -86,32 +87,9 @@ header {
   height: 350px;
 }
 
-/*
-.tag {
-  color: black;
-  padding: 10px;
-  letter-spacing: 5px;
-}
-*/
-
 .name{
   font-weight: 300;
 }
-
-/*
-header .name{
-font-size: 3em;
-}
-*/
-
-/*
-.tagline {
-  font-weight: 600;
-  padding: 20px;
-  text-transform: uppercase;
-  color: yellow; #781125
-}
-*/
 
 .card {
   margin: 30px;
@@ -123,7 +101,6 @@ font-size: 3em;
 .card:hover {
   border-color: #AF8518; /*#96731A*/
 }
-
 
 .photo{
   display: block;

@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 const vid = document.getElementsByTagName('video')[0];
 const transcript = document.getElementById('transcriptWrapper');
 const span = transcript.getElementsByTagName('span');

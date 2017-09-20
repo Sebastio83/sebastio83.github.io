@@ -1,15 +1,14 @@
 <!doctype html>
 <html lang="en">
   <head>
-      <meta charset="utf-8">
-      <link href="css/styles.css" rel="stylesheet" type="text/css" />
-      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+      <meta name="viewport" charset="utf-8" content="text/html" width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0/>
       <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+      <link href="css/styles.css" rel="stylesheet" type="text/css" />
       <title>Accessible Frog</title>
   </head>
 
   <body>
-    <div class="main-nav">
+    <div class="main-nav" role="navigation">
       <ul class="nav">
         <li class="name"><a href="#">Accessible Frog</a></li>
         <li><a href="tour.html">Tour</a></li>
@@ -22,7 +21,7 @@
       <h2 class="heading">we make awesome music</h2>
     </header>
 
-    <main>
+    <main role="main">
       <div class="card">
         <div class="flex">
           <img class="photo" src= "img/soul_of_the_frog.jpg" alt="cover from soul of the frog album">
@@ -46,11 +45,11 @@
       </div>
     </main>
 
-    <footer>
+    <footer role="contentinfo">
       <ul>
-        <li><a href="#" class="social twitter"></a></li>
-        <li><a href="#" class="social youtube"></a></li>
-        <li><a href="#" class="social spotify"></a></li>
+        <li><a href="#" class="social twitter"><img src= "img/twitter-32.png" alt="twitter icon"></a></li>
+        <li><a href="#" class="social youtube"><img src= "img/youtube-32.png" alt="youtube icon"></a></li>
+        <li><a href="#" class="social spotify"><img src= "img/spotify-32.png" alt="spotify icon"></a></li>
       </ul>
       <p class="copyright">Copyright 2015, Accessible Frog</p>
     </footer>
